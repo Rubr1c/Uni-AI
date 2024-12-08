@@ -1,0 +1,181 @@
+<mxfile host="65bd71144e">
+    <diagram id="game-store" name="Game Store Relationships">
+        <mxGraphModel dx="875" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" background="#000000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="companies_container" value="Companies" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="1520" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="epic_games" value="Epic Games" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="companies_container" vertex="1">
+                    <mxGeometry x="20" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="ea_sports" value="EA Sports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="companies_container" vertex="1">
+                    <mxGeometry x="270" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="riot_games" value="Riot Games" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="companies_container" vertex="1">
+                    <mxGeometry x="520" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="activision" value="Activision" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="companies_container" vertex="1">
+                    <mxGeometry x="770" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mojang" value="Mojang" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="companies_container" vertex="1">
+                    <mxGeometry x="1020" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="rockstar" value="Rockstar Games" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FF9999;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="companies_container" vertex="1">
+                    <mxGeometry x="1270" y="40" width="220" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="games_container" value="Games" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="200" width="1520" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="fortnite" value="Fortnite" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="20" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="rocket_league" value="Rocket League" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="210" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="fifa" value="FIFA 25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="400" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="lol" value="League of Legends" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="590" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="valorant" value="Valorant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="780" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="cod" value="Call of Duty" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="970" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="minecraft" value="Minecraft" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="1160" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="rdr2" value="Red Dead Redemption 2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="games_container" vertex="1">
+                    <mxGeometry x="1350" y="40" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="genres_container" value="Genres" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#FFFFFF;strokeColor=#FFFFFF;fillColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="360" width="1520" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="battle_royale" value="Battle Royale" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="genres_container" vertex="1">
+                    <mxGeometry x="20" y="40" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="sports" value="Sports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="genres_container" vertex="1">
+                    <mxGeometry x="320" y="40" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="fps" value="First Person Shooter" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="genres_container" vertex="1">
+                    <mxGeometry x="620" y="40" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="sandbox" value="Sandbox" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="genres_container" vertex="1">
+                    <mxGeometry x="920" y="40" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="adventure" value="Adventure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=#FFFFFF;fontColor=#000000;fontStyle=1" parent="genres_container" vertex="1">
+                    <mxGeometry x="1220" y="40" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="edge_fortnite_epic" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="fortnite" target="epic_games" edge="1">
+                    <mxGeometry x="-0.2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_rocket_epic" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="rocket_league" target="epic_games" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_fifa_ea" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="fifa" target="ea_sports" edge="1">
+                    <mxGeometry x="-0.0909" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_lol_riot" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="lol" target="riot_games" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="670" y="210"/>
+                            <mxPoint x="670" y="210"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_valorant_riot" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="valorant" target="riot_games" edge="1">
+                    <mxGeometry x="-0.0857" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="900" y="190"/>
+                            <mxPoint x="670" y="190"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_cod_activision" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="cod" target="activision" edge="1">
+                    <mxGeometry x="-0.1724" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_minecraft_mojang" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="minecraft" target="mojang" edge="1">
+                    <mxGeometry x="-0.5" y="20" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_rdr2_rockstar" value="developedBy" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="rdr2" target="rockstar" edge="1">
+                    <mxGeometry x="-0.0588" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_fortnite_br" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="fortnite" target="battle_royale" edge="1">
+                    <mxGeometry x="-0.5556" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_rocket_sports" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="rocket_league" target="sports" edge="1">
+                    <mxGeometry x="-0.2222" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_fifa_sports" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="fifa" target="sports" edge="1">
+                    <mxGeometry x="-0.5714" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_lol_sports" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="lol" target="sports" edge="1">
+                    <mxGeometry x="-0.7576" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_valorant_fps" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="valorant" target="fps" edge="1">
+                    <mxGeometry x="-0.6471" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="850" y="340"/>
+                            <mxPoint x="800" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_cod_fps" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="cod" target="fps" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="1060" y="340"/>
+                            <mxPoint x="800" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_minecraft_sandbox" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="minecraft" target="sandbox" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_minecraft_adventure" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="minecraft" target="adventure" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                        <Array as="points">
+                            <mxPoint x="1290" y="340"/>
+                            <mxPoint x="1400" y="340"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="edge_rdr2_adventure" value="hasGenre" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#FFFFFF;fontColor=#FFFFFF;labelBackgroundColor=#000000;" parent="1" source="rdr2" target="adventure" edge="1">
+                    <mxGeometry x="-0.0526" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
